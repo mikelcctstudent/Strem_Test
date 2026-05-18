@@ -19,4 +19,4 @@ def load_data(nrows):
     
 data_load_state=st.text("Loading Data...")
 load_data(10000)
-data_load_state.text("Loading Data...")
+data_load_state.text("Loading Data...Done!")
