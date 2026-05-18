@@ -26,5 +26,5 @@ st.subheader("Raw Data")
 st.write(data)
 
 st.subheader("Number of Pickups per hour")
-hist_values=np.histogram(data[DATE_COLUMN].dt.hour, bins=24, range(0,24))[0])
+hist_values=np.histogram(data[DATE_COLUMN].dt.hour, bins=24, range(0,24)[0])
 st.bar_chat(hist_values)
